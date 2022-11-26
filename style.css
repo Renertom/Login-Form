@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+  
+}
+body{
+    background-color: #333333;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card-box{
+    width: 300px;
+    background-color: #9e0c39 ;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 0px;
+}
+.card-reg{
+    width: 300px;
+    background-color: #9e0c39 ;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 0px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fbffe3;
+}
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #fbffe3;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+}
+.label-float{
+position: relative;
+padding-top: 13px;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.label-float input:focus{
+    border-bottom: 2px solid rgb(192, 67, 67);
+}
+.label-float label{
+    font-size: 18px;
+    color:#ffffff;
+    pointer-events: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-top:  13px;
+    transition: all .3s ease-out;
+}
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: rgb(248, 248, 248);
+}
+.label-float input:valid{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{    
+    background-color: transparent;
+    border-color: aquamarine;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+   
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+justifly-center{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin: 10% 0 5% 10%;
+    width: 80%;
+    align-items: center;
+
+}
+p{ 
+
+    color: rgb(251, 251, 251);
+    font-size: 15px;
+    text-align: center;
+}
+a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+a:hover{
+    color:rgb(229, 204, 14);
+}
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
